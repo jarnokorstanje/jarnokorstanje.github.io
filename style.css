@@ -6,3 +6,7 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     display: inline-block;
   }
+
+body {
+    background-color: rgb(180, 180, 180);
+}
