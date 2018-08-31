@@ -10,25 +10,32 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="./index.html">Jarno Korstanje</a>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-              <li><a href="./profile.html">Profiel</a></li>
-              <li class="active"><a href="./dashboard.html">Dashboard</a></li>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="./index.html">Jarno Korstanje</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="./profile.html">Profiel</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="./dashboard.html" class="active">Dashboard
+              <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Studiemonitor</a></li>
+              <li><a href="#">Studiewijzer</a></li>
             </ul>
-          </div>
-        </div>
-    </nav> 
-      
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <div class="container" style="padding-top:50px">
     <h3>Dashboard</h3>
     <h3>Studiemonitor</h3>
@@ -36,8 +43,10 @@
 
     <h3>Studiewijzer</h3>
     <p>
-      <a href="https://hz.nl/uploads/documents/Regelingen/NL/Onderwijs-examenregelingen/OER-HZ-2018-2019docv2018-06-26DEFCvB-V-01.pdf" target="_blank">Onderwijs en Examenregelement HZ</a><br>
-      <a href="https://hz.nl/uploads/documents/Regelingen/OERS/2017-2018/HBO-ICT-2017-2018-OER.pdf" target="_blank">Uitvoeringsregeling HBO-ICT</a><br>
+      <a href="https://hz.nl/uploads/documents/Regelingen/NL/Onderwijs-examenregelingen/OER-HZ-2018-2019docv2018-06-26DEFCvB-V-01.pdf"
+        target="_blank">Onderwijs en Examenregelement HZ</a><br>
+      <a href="https://hz.nl/uploads/documents/Regelingen/OERS/2017-2018/HBO-ICT-2017-2018-OER.pdf" target="_blank">Uitvoeringsregeling
+        HBO-ICT</a><br>
       <a href="https://learn.hz.nl/my/" target="_blank">HZ Learn</a><br>
       <a href="https://hz-hbo-ict.slack.com" target="_blank">Slack HBO-ICT</a><br>
       <a href="https://apps.hz.nl/angular/studievoortgang/studievoortgang" target="_blank">Studievoortgang</a><br>
