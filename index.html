@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -22,13 +22,13 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a href="./profile.html">Profiel</a></li>
+          <li><a href="#profiel">Profiel</a></li>
           <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="./dashboard.html">Dashboard
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#dashboard">Dashboard
               <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Studiemonitor</a></li>
-              <li><a href="#">Studiewijzer</a></li>
+              <li><a href="#studiemonitor">Studiemonitor</a></li>
+              <li><a href="#studiewijzer">Studiewijzer</a></li>
             </ul>
           </li>
         </ul>
@@ -37,10 +37,67 @@
   </nav>
 
   <div class="container" style="padding-top:50px">
-    <h3>Home</h3>
-    <p>Het HBO-niveau past bij mij omdat ik vorig schooljaar mijn havo-diploma succesvol heb behaald. <br> De opleiding HBO-ICT
-      past bij mij omdat vorig jaar informatica mijn favoriete vak was. Het leukste aan informatica vond ik om bezig te zijn
-      met websites en zelf problemen uit te zoeken.</p>
+    <div class="jumbotron">
+      <h1>Home</h1>
+      <p>"Het HBO-niveau past bij mij omdat ik vorig schooljaar mijn havo-diploma succesvol heb behaald. <br> De opleiding
+        HBO-ICT past bij mij omdat vorig jaar informatica mijn favoriete vak was. Het leukste aan informatica vond ik om
+        bezig te zijn met websites en zelf problemen uit te zoeken."</p>
+    </div>
+  </div>
+
+  <div id="profiel" class="container" style="padding-top:50px">
+    <h3>Profiel</h3>
+    <img src="./img/zeeland.jpg" alt="duinen in zeeland" height="100%" width="100%">
+
+    <h3>Kenmerken van mijzelf</h3>
+    <p>
+      <ul>
+        <li><strong>Naam </strong>Jarno Korstanje</li>
+        <li><strong>Leeftijd </strong>17 jaar</li>
+        <li><strong>Woonplaats </strong>Oudelande</li>
+        <li><strong>5 Vaardigheden</strong>
+          <ol>
+            <li>Oplossingsgericht</li>
+            <li>Analyseren</li>
+            <li>Zelfreflectie</li>
+            <li>Zelfkennis</li>
+            <li>Resultaatgericht</li>
+          </ol>
+        </li>
+        <li><strong>3 Doelen</strong>
+          <ol>
+            <li>Kritisch zijn naar de haalbaarheid van een opdracht</li>
+            <li>Communicatievaardigheid verbeteren</li>
+            <li>Prioriteiten stellen</li>
+          </ol>
+        </li>
+      </ul>
+    </p>
+  </div>
+
+  <div id="studiemonitor" class="container" style="padding-top:50px">
+    <h3>Studiemonitor</h3>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+        style="width:10%">
+        10%
+      </div>
+    </div>
+  </div>
+
+  <div id="studiewijzer" class="container" style="padding-top:50px">
+    <h3>Studiewijzer</h3>
+    <p>
+      <a href="https://hz.nl/uploads/documents/Regelingen/NL/Onderwijs-examenregelingen/OER-HZ-2018-2019docv2018-06-26DEFCvB-V-01.pdf "
+        target="_blank ">Onderwijs en Examenregelement HZ</a><br>
+      <a href="https://hz.nl/uploads/documents/Regelingen/OERS/2017-2018/HBO-ICT-2017-2018-OER.pdf " target="_blank ">Uitvoeringsregeling
+        HBO-ICT
+      </a><br>
+      <a href="https://learn.hz.nl/my/ " target="_blank ">HZ Learn</a><br>
+      <a href="https://hz-hbo-ict.slack.com " target="_blank ">Slack HBO-ICT</a><br>
+      <a href="https://apps.hz.nl/angular/studievoortgang/studievoortgang " target="_blank ">Studievoortgang</a><br>
+      <a href="https://github.com/HZ-HBO-ICT " target="_blank ">Github HBO-ICT</a>
+    </p>
   </div>
 </body>
 
