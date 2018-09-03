@@ -1,0 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#profiel {
+    padding-top:50px;
+}
+
+#studiemonitor {
+    padding-top:50px;
+}
+
+#studiewijzer {
+    padding-top: 50px; 
+    padding-bottom: 50px;
+}
+
+img {
+    width:100%; 
+    padding-top:25px;
+}
