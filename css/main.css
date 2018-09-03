@@ -3,11 +3,17 @@ html {
 }
 
 #profiel {
-    padding-top:50px;
+    padding-top: 50px;
+}
+
+.profiel_img {
+    padding-top: 50px;
+    width: 40%;
+    margin: auto;
 }
 
 #studiemonitor {
-    padding-top:50px;
+    padding-top: 50px;
 }
 
 #studiewijzer {
@@ -16,6 +22,14 @@ html {
 }
 
 img {
-    width:100%; 
-    padding-top:25px;
+    width: 100%; 
+    padding-top: 25px;
+}
+
+td {
+    width: 25%;
+}
+ 
+#profiel_table th, {
+    width: 50%;
 }
