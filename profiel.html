@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Home</title>
+  <title>Profiel</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -23,7 +23,7 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a href="./profiel.html">Profiel</a></li>
+          <li class="active"><a href="./profiel.html">Profiel</a></li>
           <li><a href="./dashboard.html">Dashboard</a></li>
           <li><a href="./sitemap.html">Sitemap</a></li>
         </ul>
@@ -31,15 +31,39 @@
     </div>
   </nav>
 
-  <div id="home" class="container">
-    <h2>Home</h2>
-    <p>"Het HBO-niveau past bij mij omdat ik vorig schooljaar mijn havo-diploma succesvol heb behaald. <br> De opleiding
-      HBO-ICT past bij mij omdat vorig jaar informatica mijn favoriete vak was. Het leukste aan informatica vond ik om bezig
-      te zijn met websites en zelf problemen uit te zoeken."</p>
+  <div id="profiel" class="container">
+    <h2>Profiel</h2>
+    <table id="profiel_table" class="table">
+      <tr>
+        <th>Naam</th>
+        <td>Jarno Korstanje</td>
+      </tr>
+      <tr>
+        <th>Leeftijd</th>
+        <td>17 jaar</td>
+      </tr>
+      <tr>
+        <th>Woonplaats</th>
+        <td>Oudelande</td>
+      </tr>
+      <tr>
+        <th>Vooropleiding</th>
+        <td>Havo profiel Natuur & Techniek</td>
+      </tr>
+      <tr>
+        <th>Vorige school</th>
+        <td>Pontes Het Goese Lyceum, Goes</td>
+      </tr>
+    </table>
+    <div class="row">
+      <div class="column">
+        <img src="./img/gebouw.jpg" alt="gebouw middelburg" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="./img/hz.png" alt="hz logo" style="width:100%">
+      </div>
+    </div>
   </div>
-
-  <img src="./img/zeeland.jpg" alt="duinen in zeeland">
-  
 </body>
 
 </html>

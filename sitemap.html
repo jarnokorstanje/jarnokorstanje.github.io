@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Home</title>
+  <title>Sitemap</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -23,16 +23,9 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a href="./index.html#profiel">Profiel</a></li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#dashboard">Dashboard
-              <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="./index.html#studiemonitor">Studiemonitor</a></li>
-              <li><a href="./index.html#studiewijzer">Studiewijzer</a></li>
-            </ul>
-          </li>
-          <li><a href="./sitemap.html">Sitemap</a></li>
+          <li><a href="./profiel.html">Profiel</a></li>
+          <li><a href="./dashboard.html">Dashboard</a></li>
+          <li class="active"><a href="./sitemap.html">Sitemap</a></li>
         </ul>
       </div>
     </div>
@@ -40,9 +33,24 @@
 
   <div id="sitemap" class="container" style="padding-top:50px">
     <h2>Sitemap</h2>
-    <p>
-      
-    </p>
+    <ul>
+      <li>Home</li>
+      <li>Profiel</li>
+      <li>Dashboard
+        <ul>
+          <li>Studiemonitor</li>
+          <li>Studiewijzer
+            <ul>
+              <li>Blok 1</li>
+              <li>Blok 2</li>
+              <li>Blok 3</li>
+              <li>Blok 4</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Sitemap</li>
+    </ul>
   </div>
 </body>
 
