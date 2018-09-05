@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+#home {
+    padding-top: 50px;
+}
+
 #profiel {
     padding-top: 50px;
 }
