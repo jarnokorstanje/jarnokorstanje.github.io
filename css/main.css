@@ -6,10 +6,13 @@ html {
     padding-top: 50px;
 }
 
-.profiel_img {
-    padding-top: 50px;
-    width: 40%;
-    margin: auto;
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
 }
 
 #studiemonitor {
@@ -27,7 +30,7 @@ img {
 }
 
 td {
-    width: 25%;
+    width: 20%;
 }
  
 #profiel_table th, {
