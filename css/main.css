@@ -1,7 +1,4 @@
-html {
-    overflow-y: scroll;
-} 
-
+html { margin-left: calc(100vw - 100%); }
 #home,
 #profiel,
 #studiemonitor,
