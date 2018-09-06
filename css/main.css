@@ -2,11 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
-#home {
-    padding-top: 50px;
-}
-
-#profiel {
+#home,
+#profiel,
+#studiemonitor,
+#studiewijzer {
     padding-top: 50px;
 }
 
@@ -15,22 +14,14 @@ html {
 }
   
 .column {
-    flex: 33.33%;
+    flex: 50%;
     padding: 5px;
 }
 
-#studiemonitor {
-    padding-top: 50px;
-}
-
-#studiewijzer {
-    padding-top: 50px; 
-    padding-bottom: 50px;
-}
-
-img {
+#duinen {
     width: 100%; 
-    padding-top: 25px;
+    position: fixed;
+    bottom: 0px;
 }
 
 td {
