@@ -1,4 +1,7 @@
-html { margin-left: calc(100vw - 100%); }
+html { 
+    margin-left: calc(100vw - 100%); 
+}
+
 #home,
 #profiel,
 #studiemonitor,
