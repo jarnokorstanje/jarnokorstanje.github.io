@@ -1,12 +1,18 @@
 html {
-    scroll-behavior: smooth;
-}
+    overflow: scroll;
+} 
 
 #home,
 #profiel,
 #studiemonitor,
 #studiewijzer {
     padding-top: 50px;
+}
+
+#duinen {
+    width: 100%; 
+    position: fixed;
+    bottom: 0px;
 }
 
 .row {
@@ -18,17 +24,6 @@ html {
     padding: 5px;
 }
 
-#duinen {
-    width: 100%; 
-    position: fixed;
-    bottom: 0px;
-}
-
-td {
+#studiemonitor td {
     width: 25%;
 }
- 
-#profiel_table th, {
-    width: 50%;
-}
-
