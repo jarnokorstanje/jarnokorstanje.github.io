@@ -2,6 +2,10 @@ html {
     margin-left: calc(100vw - 100%); 
 }
 
+body {
+    background-color: brown;
+}
+
 #home,
 #profiel,
 #studiemonitor,
