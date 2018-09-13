@@ -2,10 +2,7 @@ html {
     margin-left: calc(100vw - 100%); 
 }
 
-#home,
-#profiel,
-#studiemonitor,
-#studiewijzer {
+.container {
     padding-top: 50px;
 }
 
@@ -24,6 +21,6 @@ html {
     padding: 5px;
 }
 
-#studiemonitor td {
+td {
     width: 25%;
 }
